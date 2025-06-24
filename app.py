@@ -24,6 +24,7 @@ graph = {
     'R': ['A', 'B', 'C', 'S'],
     'S': ['O', 'R', 'T'],
     'T': ['A', 'S'],
+    'U': ['K', 'J']
 }
 
 def bfs(start, goal):
